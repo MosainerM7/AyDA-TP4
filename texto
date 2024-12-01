@@ -1,0 +1,16 @@
+
+AyDA
+Trabajo Práctico 4
+Alumno: Mosainer Martín
+
+Explicación del algoritmo
+Recorrido doble: En cada paso del bucle, recorremos la fila de discos desde el principio hasta el penúltimo disco.
+Intercambio de vecinos: Cada vez que encontramos un disco azul (🔵) a la izquierda de un disco rojo (🔴), los intercambiamos y aumentamos el contador de movimientos.
+Finalización: Una vez que hemos pasado por toda la fila, los discos quedarán ordenados con todos los rojos a la izquierda y los azules a la derecha.
+
+
+Cálculo de movimientos
+Este algoritmo tiene una complejidad de tiempo de 
+𝑂(𝑛2)
+
+ en el peor de los casos, ya que cada intercambio mueve un disco un paso más cerca de su posición final.
